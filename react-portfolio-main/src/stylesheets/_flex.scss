@@ -1,0 +1,44 @@
+/* Flex */
+
+.flex {
+  display: flex;
+}
+.jcc {
+  justify-content: center;
+}
+.aic {
+  align-items: center;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+
+.flex-48 {
+  flex: 0 1 40%;
+  margin: 1%;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+.flex-30 {
+  flex: 0 1 25%;
+}
+.flex-70 {
+  flex: 0 1 75%;
+}
+
+.flex-20 {
+  flex: 0 1 16%;
+}
