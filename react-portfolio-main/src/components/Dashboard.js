@@ -11,7 +11,7 @@ const Dashboard = (props) => {
 
         <h1 className='user-name'>Upendra rajput</h1>
 
-        <h3>Pune, Maharashtra</h3>
+        <h3>Kanpur ,Uttar Pradesh</h3>
         <nav className='flex jcc aic'>
           <ul className='flex dashboard-nav'>
             <li>

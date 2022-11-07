@@ -4,7 +4,7 @@ This is my Portfolio website.
 
 # watch live website on
 
-https://oshingate.netlify.app
+https://vercel.com/upendrarajput9
 
 ## Installation
 
@@ -31,4 +31,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 
 ## License
-oshingate@gmail.com
+Upendrarajput9911@gmail.com
