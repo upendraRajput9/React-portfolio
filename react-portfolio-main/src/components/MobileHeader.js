@@ -8,11 +8,11 @@ const MobileHeader = () => {
       <header className='media-flex justify-between'>
         <div className='media-flex jcc aic'>
           <div className='img-div'>
-            <img src='./onkar.jpg' alt='userImg' />
+            <img src='./upendra.png' alt='userImg' />
           </div>
           <strong>
-            Onkar Shingate <br />
-            <span>solapur</span>
+            Upendra Rajput<br />
+            <span>Kanpur ,Uttar Pradesh</span>
           </strong>
         </div>
 
