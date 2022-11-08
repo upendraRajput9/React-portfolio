@@ -106,7 +106,7 @@ const MobileHeader = () => {
                   <li className='sub-menu'>Personal Projects</li>
                 </NavLink>
 
-                <NavLink
+                {/* <NavLink
                   to='/blogs'
                   className='capitalize'
                   onClick={() => {
@@ -118,7 +118,7 @@ const MobileHeader = () => {
                   }}
                 >
                   <li className='sub-menu'>Blogs</li>
-                </NavLink>
+                </NavLink> */}
               </ul>
             </nav>
 

@@ -80,9 +80,9 @@ const Dashboard = (props) => {
             <li className='sub-menu'>Personal Projects</li>
           </NavLink>
 
-          <NavLink to='/blogs' activeClassName='header-active-nav'>
+          {/* <NavLink to='/blogs' activeClassName='header-active-nav'>
             <li className='sub-menu'>Blogs</li>
-          </NavLink>
+          </NavLink> */}
         </ul>
       </nav>
 

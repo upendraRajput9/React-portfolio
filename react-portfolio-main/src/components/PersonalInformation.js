@@ -30,7 +30,7 @@ const PersonalInformation = () => {
         <ul className='flex about-nav'>
           <li>
             <a
-              href='https://twitter.com/onkarshingate2'
+              href='https://twitter.com/UpendraRajput_'
               target='_blank'
               rel='noreferrer'
             >
@@ -39,7 +39,7 @@ const PersonalInformation = () => {
           </li>
           <li>
             <a
-              href='https://www.facebook.com/oshingate'
+              href='https://www.facebook.com/Upendrarazput/'
               target='_blank'
               rel='noreferrer'
             >
@@ -48,7 +48,7 @@ const PersonalInformation = () => {
           </li>
           <li>
             <a
-              href='https://oshingate.medium.com/'
+              href='https://medium.com/@upendrarajput9911'
               target='_blank'
               rel='noreferrer'
             >
@@ -57,7 +57,7 @@ const PersonalInformation = () => {
           </li>
           <li>
             <a
-              href='https://www.linkedin.com/in/oshingate/'
+              href='https://www.linkedin.com/in/upendra-rajput-a8990921b/'
               target='_blank'
               rel='noreferrer'
             >

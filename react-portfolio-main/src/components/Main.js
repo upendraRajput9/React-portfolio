@@ -22,10 +22,12 @@ const Main = () => {
         <Route exact path='/projects'>
           <Projects />
         </Route>
-
-        <Route exact path='/blogs'>
-          <Blogs />
+        <Route exact path='*'>
+          
         </Route>
+        {/* <Route exact path='/blogs'>
+          <Blogs />
+        </Route> */}
       </Switch>
     </div>
   );
