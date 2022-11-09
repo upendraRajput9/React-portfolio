@@ -5,6 +5,7 @@ import { ThemeContext } from "../themeProvider";
 const Contact = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+  
   return (
     <div
       id="contact"
@@ -22,11 +23,7 @@ const Contact = () => {
           <h4 className="mt-12 text-3xl font-semibold text-blue-500">
             Connect with me
           </h4>
-          <p className="text-gray-500 text-xl">
-            If you want to know more about me or my work, or if you would just
-            <br />
-            like to say hello, send me a message. I'd love to hear from you.
-          </p>
+        
         </div>
         <div className="flex justify-between items-center md:items-stretch  flex-col md:flex-row pb-24">
           <div className="w-full md:pr-8">
@@ -89,12 +86,12 @@ const Contact = () => {
               </div>
               <div className="flex justify-between ">
                 <div className="underline">
-                  <a href="mailto:aakash.sh858791@gmail.com">
+                  <a href="mailto:upendrarajput9911@gmail.com">
                     Send me email directly
                   </a>
                 </div>
                 <button className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
-                  <a href="mailto:aakash.sh858791@gmail.com">Submit</a>
+                  <a href="mailto:upendrarajput9911@gmail.com">Submit</a>
                 </button>
               </div>
             </form>
@@ -119,8 +116,7 @@ const Contact = () => {
               href="hello"
               className="mt-4  mb-12 md:text-right font-semibold text-blue-700 block uppercase"
             >
-              Jhilmil Colony, Delhi
-              India
+              Rath, Hamirpur, Uttar Pradesh, India
             </a>
             <h1 className="text-3xl  font-bold">Social</h1>
             <ul className="flex">

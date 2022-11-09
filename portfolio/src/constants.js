@@ -46,7 +46,8 @@ export const techStack = [
 ]
 
 
-export const contactLinks = [{ name: '', url: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png', link: 'https://stackoverflow.com/users/11788531/aakash-sharma' },
+export const contactLinks = [
+  // { name: '', url: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png', link: 'https://stackoverflow.com/users/11788531/aakash-sharma' },
 { name: 'Twitter', url: 'https://img.icons8.com/doodle/40/000000/twitter', link: 'https://twitter.com/UpendraRajput_' },
 { name: 'Github', url: 'https://img.icons8.com/doodle/40/000000/github--v1.png', link :'https://github.com/upendraRajput9'},
 { name: 'LinkedIn', url: 'https://img.icons8.com/doodle/40/000000/linkedin--v2.png', link: 'https://www.linkedin.com/in/upendra-rajput-a8990921b/'}
@@ -81,60 +82,84 @@ export const serviceData = [
 
 
 ]
-export const projects=[{
-  name:"WRITTY APP",
-  desc:"REACT| REACT-ROUTER-DOM | JSX | VERCEL",
-  body:"It is a blog application, where users can create accounts, access, write, delete, update, like blogs, and more",
-  live:"https://quiz-app-ten-kohl.vercel.app/",
-  image:writtyImage
-},
-{
-  name:"quiz-app",
-  desc:"REACT| REACT-ROUTER-DOM | JSX | VERCEL",
-  body:"It is a blog application, where users can create accounts, access, write, delete, update, like blogs, and more",
-  live:"https://quiz-app-ten-kohl.vercel.app/",
-  image:quiz
-},
-{
-  name:"quiz-app",
-  desc:"REACT| REACT-ROUTER-DOM | JSX | VERCEL",
-  body:"It is a blog application, where users can create accounts, access, write, delete, update, like blogs, and more",
-  live:"https://quiz-app-ten-kohl.vercel.app/",
-  image:shoppingCart
-},
-{
-  name:"quiz-app",
-  desc:"REACT| REACT-ROUTER-DOM | JSX | VERCEL",
-  body:"It is a blog application, where users can create accounts, access, write, delete, update, like blogs, and more",
-  live:"https://quiz-app-ten-kohl.vercel.app/",
-  image:githubBattle
-},
-{
-  name:"quiz-app",
-  desc:"REACT| REACT-ROUTER-DOM | JSX | VERCEL",
-  body:"It is a blog application, where users can create accounts, access, write, delete, update, like blogs, and more",
-  live:"https://quiz-app-ten-kohl.vercel.app/",
-  image:tictac
-},
-{
-  name:"quiz-app",
-  desc:"REACT| REACT-ROUTER-DOM | JSX | VERCEL",
-  body:"It is a blog application, where users can create accounts, access, write, delete, update, like blogs, and more",
-  live:"https://quiz-app-ten-kohl.vercel.app/",
-  image:fitness
-},
-{
-  name:"quiz-app",
-  desc:"REACT| REACT-ROUTER-DOM | JSX | VERCEL",
-  body:"It is a blog application, where users can create accounts, access, write, delete, update, like blogs, and more",
-  live:"https://quiz-app-ten-kohl.vercel.app/",
-  image:timer
-},
-{
-  name:"quiz-app",
-  desc:"REACT| REACT-ROUTER-DOM | JSX | VERCEL",
-  body:"It is a blog application, where users can create accounts, access, write, delete, update, like blogs, and more",
-  live:"https://quiz-app-ten-kohl.vercel.app/",
-  image:flexor
-}
+export const projects=[
+  
+    {
+      name: 'Writty App',
+      desc:"REACT| REACT-ROUTER-DOM | JSX | VERCEL",
+      image: 'https://www.loom.com/embed/c9846f57955c48fe80401a934fd6eab5',
+     live: 'https://blog-app-repo.vercel.app/',
+      TechStack: ['ReactJS', 'ExpressJS', 'MongoDB',"API"],
+      hostedOn: 'On Vercel',
+    },
+    // {
+    //   name: 'Shopify Clone',
+    //   image: 'https://www.loom.com/embed/c8a6a542c1824667b7608f24e97edeeb',
+    //  live: 'https://oshingate-shoopifai.netlify.app',
+    //   TechStack: ['ReactJS', 'ExpressJS', 'MongoDB', 'Bulma CSS'],
+    //   hostedOn: 'On Netlify',
+    // },
+    {
+      name: 'E-Commerse Site',
+      desc:"REACT| REACT-ROUTER-DOM | JSX | VERCEL",
+      image: 'https://www.loom.com/embed/b07e2d4ebfd34489877f7b8220de789f',
+     live: 'https://shopping-cart-zeta-gules.vercel.app/',
+      TechStack: ['ReactJS', 'HTML', 'SCSS'],
+      hostedOn: 'On Vercel',
+    },
+    {
+      name: 'Tic Tac Teo',
+      desc:"REACT| REACT-ROUTER-DOM | JSX | VERCEL",
+      image: 'https://www.loom.com/embed/784ec24a46454d028d4526fcd406031e',
+     live: 'https://tic-tac-toe-ashy-alpha.vercel.app/',
+      TechStack: ['ReactJS', 'Redux', 'HTML', 'SCSS'],
+      hostedOn: 'On Vercel',
+    },
+    {
+      name: 'Activity Tracker',
+      desc:"REACT| REACT-ROUTER-DOM | JSX | VERCEL",
+      image: 'https://www.loom.com/embed/0fa7a9650084492996ba7847fca7f3a1',
+     live: 'https://monthly-activity-tracker-nu.vercel.app/',
+      TechStack: ['ReactJS', 'HTML', 'SCSS'],
+      hostedOn: 'On Vercel',
+    },
+    {
+      name: 'Fitness Club',
+      desc:"JAVASCRIPT| HTML  | GITHUB",
+      image: 'https://www.loom.com/embed/dc4190bd75c84dda9a281a819007bc6a',
+     live: 'https://upendrarajput9.github.io/Advance-CSS-final-checkpoint/',
+      TechStack: ['JavaScript', 'HTML', 'SCSS'],
+      hostedOn: 'On GitHub',
+    },
+    // {
+    //   name: 'Event Manager',
+    //   image: 'https://www.loom.com/embed/268dbc269d4244cd8325945d5b534dbb',
+    //  live: 'https://oshingate-event-manager.herokuapp.com/',
+    //   TechStack: ['ExpressJS', 'EJS', 'SCSS'],
+    //   hostedOn: 'On Heroku',
+    // },
+    // {
+    //   name: 'Podcast App',
+    //   image: 'https://www.loom.com/embed/0e1249261b294408bfb2e93dd33cdc96',
+    //  live: 'https://oshingate-event-manager.herokuapp.com/',
+    //   TechStack: ['ExpressJS', 'EJS', 'SCSS'],
+    //   hostedOn: 'On Heroku',
+    // },
+    {
+      name: 'Quiz App',
+      desc:"REACT| REACT-ROUTER-DOM | JSX | VERCEL",
+      image: 'https://www.loom.com/embed/dc45dec9db1541f0a6ac04053e98a4d5',
+     live: 'https://quiz-app-ten-kohl.vercel.app/',
+      TechStack: ['ReactJS', 'HTML', 'SCSS'],
+      hostedOn: 'On Vercel',
+    },
+    {
+      name: 'Github Battle',
+      desc:"REACT| REACT-ROUTER-DOM | JSX | VERCEL",
+      image: 'https://www.loom.com/embed/3f5048831c484c86a89e743c0bb8f456',
+     live: 'https://github-battle-ten.vercel.app/',
+      TechStack: ['ReactJS', 'HTML', 'SCSS'],
+      hostedOn: 'On Vercel',
+    },
+ 
 ]
